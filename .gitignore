@@ -27,3 +27,5 @@ obj/
 [Rr]elease*/
 _ReSharper*/
 [Tt]est[Rr]esult*
+build/output/jquery.carousellite.js
+build/output/jquery.carousellite.min.js
