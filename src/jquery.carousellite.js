@@ -228,8 +228,8 @@ $.fn.jCarouselLite = function(o) {
         var div = $(this), ul = $("ul", div), tLi = $("li", ul), tl = tLi.size(), v = o.visible;
 
         if(o.circular) {
-            ul.prepend(tLi.slice(tl-v-1+1).clone())
-              .append(tLi.slice(0,v).clone());
+            ul.prepend(tLi.slice(tl-v-1+1).clone(true))
+              .append(tLi.slice(0,v).clone(true));
             o.start += v;
         }
 
